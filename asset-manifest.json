@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/personal-blog/static/js/main.10cff86a.js",
+    "index.html": "/personal-blog/index.html",
+    "main.10cff86a.js.map": "/personal-blog/static/js/main.10cff86a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.10cff86a.js"
+  ]
+}
