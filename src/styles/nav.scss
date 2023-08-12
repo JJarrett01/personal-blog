@@ -1,2 +1,25 @@
 @import "./variables.scss";
- 
+ .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $darkbg;
+    color: $textcolor;
+    margin: 0;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            padding: 5px;
+        }
+        a{
+            color: $textcolor;
+            :hover{
+                color: darken($color: $textcolor, $amount: 10%);
+            }
+            :visited{
+                color: $visitedlink;
+            }
+        }
+    }
+ }

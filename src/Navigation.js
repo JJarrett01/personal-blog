@@ -3,19 +3,19 @@ function Navigation()
 let navlist = [
     {
         title:"Home",
-        link:"/."
+        link:"#"
 },
 {
     title:"Blog",
-    link:"/."
+    link:"#"
 },
 {
     title:"About Me",
-    link:"/."
+    link:"#"
 }
 ];
     return(
-    <nav>
+    <nav className="nav-bar">
         <span> Hello </span>
         <ul>
             {
